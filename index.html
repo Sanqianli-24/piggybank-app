@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>省钱罐 · 安卓版下载</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #F4F5F7; color: #1F2937;
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 380px; width: 100%;
+    background: #fff; border-radius: 20px; padding: 36px 28px;
+    box-shadow: 0 6px 30px rgba(23,35,59,.08); text-align: center;
+  }
+  .pig { font-size: 56px; }
+  h1 { font-size: 22px; margin: 10px 0 4px; }
+  .ver { color: #059669; font-weight: 600; margin-bottom: 18px; }
+  .notes {
+    text-align: left; font-size: 13.5px; color: #5B6472; line-height: 1.8;
+    background: #F0FDF7; border-radius: 12px; padding: 14px 16px; margin-bottom: 22px;
+    white-space: pre-line;
+  }
+  a.dl {
+    display: block; background: linear-gradient(135deg, #34D399, #059669);
+    color: #fff; text-decoration: none; font-size: 16px; font-weight: 600;
+    border-radius: 12px; padding: 13px; margin-bottom: 12px;
+  }
+  a.gh { color: #8A94A6; font-size: 12.5px; text-decoration: none; }
+  .tip { font-size: 12px; color: #AAB2BF; margin-top: 14px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="pig">🐷</div>
+    <h1>省钱罐</h1>
+    <div class="ver" id="ver">v1.3.0 · Android· Android</div>
+    <div class="notes" id="notes">🤖 自动记账：微信/支付宝「支付成功」通知自动入账，带「自动」角标可随时修改（需在习惯页开启通知使用权）
+🚀 应用内更新：启动时自动检查新版本，一键下载安装
+🔑 习惯页新增「检查更新」按钮</div>
+    <a class="dl" id="dl" href="https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.3.0.apk">⬇️ 下载安装包（3.6 MB）</a>
+    <a class="gh" href="https://github.com/Sanqianli-24/piggybank-app">GitHub 仓库 / 备用下载</a>
+    <div class="tip">安装时如提示「未知来源」，允许即可。<br>数据仅保存在手机本地，更新安装不会丢失数据。</div>
+  </div>
+  <script>
+    fetch('update-manifest.json?t=' + Date.now()).then(r => r.json()).then(m => {
+      document.getElementById('ver').textContent = 'v' + m.versionName + ' · Android';
+      document.getElementById('notes').textContent = m.notes || '';
+      document.getElementById('dl').href = m.apkUrl;
+      if (m.sizeMb) document.getElementById('dl').textContent = '⬇️ 下载安装包（' + m.sizeMb + ' MB）';
+    }).catch(() => {});
+  </script>
+</body>
+</html>
