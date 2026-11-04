@@ -1,9 +1,9 @@
 {
-  "versionCode": 6,
-  "versionName": "1.6.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.6.0.apk",
-  "sha256": "5a82437c03681a5b367f2949076237cff627a8e7a3f897fc8817033d84dae888",
+  "versionCode": 7,
+  "versionName": "1.7.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.7.0.apk",
+  "sha256": "7a355e4319a45e736583fd9a44a203c1d49ad87ca9ebc0c7348e2f8f6b7f9ef5",
   "sizeMb": 3.6,
   "publishedAt": "2026-11-05",
-  "notes": "🛡 更新源加固：三个源并发检查、取最新版本（单源 CDN 缓存过期不再影响更新提示）\n📦 每个版本同步发布 GitHub Release（含更新说明与安装包）"
+  "notes": "🎨 全新 Logo：立体福猪 + 自绘金币，品牌绿渐变，启动图同步换新"
 }
