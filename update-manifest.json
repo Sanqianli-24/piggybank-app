@@ -1,9 +1,9 @@
 {
-  "versionCode": 5,
-  "versionName": "1.5.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.5.0.apk",
-  "sha256": "aff968a332290b753cbcab2795a164dda38ce697e46f58e12196a3d881911bd1",
+  "versionCode": 6,
+  "versionName": "1.6.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.6.0.apk",
+  "sha256": "5a82437c03681a5b367f2949076237cff627a8e7a3f897fc8817033d84dae888",
   "sizeMb": 3.6,
   "publishedAt": "2026-11-05",
-  "notes": "🚀 更新检查改为每次启动都执行（之前 24h 节流会漏提示）\n📱 返回键适配：记一笔/弹窗先关闭，主界面连按两次才退出\n🛠 修复 v1.4.0 弹窗「取消」按钮失效的问题"
+  "notes": "🛡 更新源加固：三个源并发检查、取最新版本（单源 CDN 缓存过期不再影响更新提示）\n📦 每个版本同步发布 GitHub Release（含更新说明与安装包）"
 }
