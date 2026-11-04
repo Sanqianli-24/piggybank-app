@@ -1,9 +1,9 @@
 {
-  "versionCode": 4,
-  "versionName": "1.4.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.4.0.apk",
-  "sha256": "6c4cdc38e0d8eb13c569f18c0f35e743d30bdb3c5c26c02df49811604bdf7bad",
-  "sizeMb": 3.5,
-  "publishedAt": "2026-11-04",
-  "notes": "🛠 修复：支付宝卡包/红包/优惠券等营销通知被误记为支出\n🏦 新增：中国银行等银行 App 的收支通知自动记账\n🔁 同一笔支付银行和微信/支付宝都推送时，只记一笔\n📋 习惯页新增「抓取记录」，能看到每条通知的记账判定\n🍜 分类优化：食堂/餐厅等关键词归入餐饮"
+  "versionCode": 5,
+  "versionName": "1.5.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.5.0.apk",
+  "sha256": "aff968a332290b753cbcab2795a164dda38ce697e46f58e12196a3d881911bd1",
+  "sizeMb": 3.6,
+  "publishedAt": "2026-11-05",
+  "notes": "🚀 更新检查改为每次启动都执行（之前 24h 节流会漏提示）\n📱 返回键适配：记一笔/弹窗先关闭，主界面连按两次才退出\n🛠 修复 v1.4.0 弹窗「取消」按钮失效的问题"
 }
