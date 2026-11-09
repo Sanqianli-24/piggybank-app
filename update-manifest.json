@@ -1,9 +1,9 @@
 {
-  "versionCode": 7,
-  "versionName": "1.7.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.7.0.apk",
-  "sha256": "7a355e4319a45e736583fd9a44a203c1d49ad87ca9ebc0c7348e2f8f6b7f9ef5",
-  "sizeMb": 3.6,
-  "publishedAt": "2026-11-05",
-  "notes": "🎨 全新 Logo：立体福猪 + 自绘金币，品牌绿渐变，启动图同步换新"
+  "versionCode": 8,
+  "versionName": "1.8.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.8.0.apk",
+  "sha256": "6a0d7eb5bf045ed61e0a7bbc0f3842bd7c8ffd54e024224e4889b76f04483911",
+  "sizeMb": 3.2,
+  "publishedAt": "2026-11-09",
+  "notes": "📊 全新统计页：分类环形图 + 排行榜 + 近 6 个月收支趋势 + 环比上月\n✏️ 交易可编辑：点任意一笔即可修改金额/分类/备注/日期或删除\n🔍 明细搜索：按备注、分类、金额快速过滤\n🌙 深色模式：跟随系统自动切换\n🛡 每日自动快照：本地保留最近 7 天数据副本，误删可找回\n📦 安装包从 7.8MB 瘦身到 3.2MB"
 }
