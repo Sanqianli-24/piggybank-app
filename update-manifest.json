@@ -1,9 +1,9 @@
 {
-  "versionCode": 8,
-  "versionName": "1.8.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.8.0.apk",
-  "sha256": "6a0d7eb5bf045ed61e0a7bbc0f3842bd7c8ffd54e024224e4889b76f04483911",
+  "versionCode": 9,
+  "versionName": "1.9.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.9.0.apk",
+  "sha256": "9086dfba88bd8e6efef34f37ece403c07111f3e63253f9b1c90c3467f3d37c07",
   "sizeMb": 3.2,
-  "publishedAt": "2026-11-09",
-  "notes": "📊 全新统计页：分类环形图 + 排行榜 + 近 6 个月收支趋势 + 环比上月\n✏️ 交易可编辑：点任意一笔即可修改金额/分类/备注/日期或删除\n🔍 明细搜索：按备注、分类、金额快速过滤\n🌙 深色模式：跟随系统自动切换\n🛡 每日自动快照：本地保留最近 7 天数据副本，误删可找回\n📦 安装包从 7.8MB 瘦身到 3.2MB"
+  "publishedAt": "2026-11-10",
+  "notes": "⚡ 无障碍实时抓取（可选）：支付成功瞬间读取支付页金额/商户，通知关了也能记\n🪟 悬浮窗卡片：App 不在前台时，支付后当场弹出「已记账」卡片，点修改直接改分类\n🧠 分类学习：纠正过一次某商户的分类，下次自动沿用\n🔁 同一笔支付多渠道捕获只记一笔（120秒窗口）\n⚙️ 习惯页新增三行权限开关与保活指引"
 }
