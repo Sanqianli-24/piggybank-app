@@ -1,9 +1,9 @@
 {
-  "versionCode": 9,
-  "versionName": "1.9.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v1.9.0.apk",
-  "sha256": "9086dfba88bd8e6efef34f37ece403c07111f3e63253f9b1c90c3467f3d37c07",
+  "versionCode": 10,
+  "versionName": "2.0.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Sanqianli-24/piggybank-app@main/releases/piggybank-v2.0.0.apk",
+  "sha256": "643d31d640f19b904c66304e69038976eb8c7419eb310f204d90481a7256ba09",
   "sizeMb": 3.2,
-  "publishedAt": "2026-11-10",
-  "notes": "⚡ 无障碍实时抓取（可选）：支付成功瞬间读取支付页金额/商户，通知关了也能记\n🪟 悬浮窗卡片：App 不在前台时，支付后当场弹出「已记账」卡片，点修改直接改分类\n🧠 分类学习：纠正过一次某商户的分类，下次自动沿用\n🔁 同一笔支付多渠道捕获只记一笔（120秒窗口）\n⚙️ 习惯页新增三行权限开关与保活指引"
+  "publishedAt": "2026-11-11",
+  "notes": "🏷️ 自定义分类：增删/改名/图标/排序/隐藏，想要什么分类自己建\n🔖 标签：一笔可打多个标签（如 #聚餐 #双十一），统计页按标签看花销\n👛 账户资产：多账户余额、转账、总资产，统计页新增净资产趋势图\n📅 周期记账：房租/话费/订阅到期自动入账（或到期提醒确认）\n🔍 明细筛选：时间范围/类型/分类/标签/账户/金额区间，结果可导出 CSV\n🛡️ 预算增强：周/月预算可切换，余额自动结转下月（信封式）\n🧾 报销标记：记一笔标「待报销」，预算页报销台账一键转已到账\n📊 统计新装备：消费日历（点日期看明细）、任意两月对比\n数据完全兼容，更新后原有账单一笔不少"
 }
